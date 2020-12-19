@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Kumbh Sans');
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Kumbh Sans';
+  font-size: 18px;
+  color: #2d3248;
+  font-weight: 700;
+  background-image: url("/images/bg-pattern-bottom.svg") , url("/images/bg-pattern-top.svg");
+  background-position: right 150px bottom, left 190px top;
+  background-repeat: no-repeat;
+  background-color: #19a2ae;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+ 
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px 0px 100px 0px;
+  background-image: url("/images/bg-pattern-card.svg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 37%;
+  height: 450px;
+  width: 100%;
+
+  margin-left: 10px;
+  margin-top: 223px;
+}
+
+.image1 {
+  margin-left: 10px;
+  margin-top: 269px;
+  width: 100%;
+}
+
+.image {
+  border-radius: 50%;
+  
+}
+
+
+.age {
+  color: #969696;
+}
+
+.city {
+  color: #969696;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+
+/* Solid border */
+hr.solid {
+  border-top: 1px;
+  border-style: solid;
+  border-color: #E8E8E8;
+}
+
+.followers {
+  color: #969696;
+  font-size: 13px;
+}
+
+.likes {
+  color: #969696;
+  font-size: 14px;
+
+}
+
+.photos {
+  color: #969696;
+  font-size: 13px;
+
+}
+
+.information {
+  display: flex;
+  list-style-type: none;
+  padding-bottom: 45px;
+  
+}
+
+li {
+  width: 82px;
+  height: 47px;
+  margin-left: 43px;
+  float: left;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+/* @media only screen and (max-width: 767px) {
+
+  .card {
+    margin-top: 265px;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .card {
+    margin-top: 265px;
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .card {
+    margin-top: 265px;
+    margin-left: 1px;
+    max-width: 100%;
+    width: 21%;
+  }
+} */
